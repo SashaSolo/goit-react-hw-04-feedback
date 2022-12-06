@@ -5,7 +5,12 @@ export const Container = styled.div`
   display: block;
   margin: 60px auto;
   padding: 10px;
+
   text-align: center;
-  background-color: #fff;
-  border-radius: 4px;
+  font-size: 24px;
+  background-color: #afafaf;
+
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4) inset;
 `;
