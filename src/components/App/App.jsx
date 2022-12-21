@@ -45,7 +45,7 @@ class App extends React.Component {
           />
         </SectionMain>
         <SectionMain title={'Statistics'}>
-          {good || neutral || bad > 0 ? (
+          {totalForFB > 0 ? (
             <Statistics
               good={good}
               neutral={neutral}
